@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 1440px;
+  max-height: 100%;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  width: 100%;
+  max-height: 400px;
+  justify-content: space-between;
+  align-items: center;
+  background: #495e57;
+  color: white;
+  padding: 60px;
+}
+
+.hero-text {
+  display: grid;
+  max-width: 400px;
+  height: 280px;
+}
+
+.hero-text h1 {
+  font-family: "Tagesschrift", sans-serif;
+  color: #f4ce14;
+  font-size: 70px;
+  height: 100px;
+  margin: 0;
+}
+
+.hero-text h2 {
+  font-family: "Tagesschrift", sans-serif;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-family: "Embed code", serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hero-text a {
+  position: relative;
+  left: 110px;
+  max-width: 180px;
+  background-color: #ecc607;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: inset 3px 3px 1px rgb(235, 247, 2), inset -3px -3px 1px rgb(143, 136, 1);
+
+  &:hover {
+    background-color: #ffd60a;
+    box-shadow: 0 0 15px rgb(235, 247, 2);
+    transition: all 0.8s ease;
+  }
+
+  &:active {
+    background-color: #d4b204;
+    transition: all 0.2s ease;
+    box-shadow: none;
+  }
+}
+
+.hero-img img {
+  height: 450px;
+  width: 450px;
+  border-radius: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 150px;
+  right: 200px;
+}
+
+/* Specials */
+.specials {
+  padding: 160px 70px;
+}
+
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specials-header h2 {
+  font-family: "Tagesschrift", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0;
+}
+
+.yellow-btn {
+  background: #ecc607;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: -3px -3px 1px rgb(235, 247, 2), inset -3px -3px 1px rgb(143, 136, 1);
+
+  &:hover {
+    background-color: #ffd60a;
+    box-shadow: 0 0 15px rgb(235, 247, 2);
+    transition: all 0.6s ease;
+  }
+
+  &:active {
+    background-color: #d4b204;
+    transition: all 0.2s ease;
+    box-shadow: none;
+  }
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 600px;
+  flex: 1;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.3), 2px 0 6px rgb(0, 0, 0, 0.1), -2px 0 6px rgb(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: scale(1.07);
+    transition: all 0.5s ease;
+    box-shadow: 0 8px 3px rgb(0, 0, 0, 0.3), 2px 0 3px rgb(0, 0, 0, 0.1), -2px 0 3px rgb(0, 0, 0, 0.1);
+  }
+}
+
+.card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.card-title h3 {
+  font-family: "Tagesschrift", sans-serif;
+  font-size: 22px;
+  margin: 0;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.card p {
+  font-family: "Embed code", serif;
+  font-size: 17px;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.card a {
+  font-family: "Embed code", serif;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.card a:hover {
+  color: #495e57;
+}
