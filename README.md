@@ -1,72 +1,75 @@
-# Personal Portfolio (React + Vite)
+<<<<<<< HEAD
+# Getting Started with Create React App
 
-A single‑page developer portfolio built with React. Includes a sticky auto‑hiding header with internal smooth scrolling links, social links, a landing (hero) section, featured projects grid, and a validated contact form.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Sections & Features
+## Available Scripts
 
-1. Header
-   - External social links (GitHub, LinkedIn, Twitter – replace with yours)
-   - Internal links: Home, Projects, Contact (smooth scroll)
-   - Auto hides on scroll down and reappears on scroll up with CSS transition
-2. Landing (Hero)
-   - Avatar (currently reusing `react.svg` placeholder) + Name + Short bio/tagline
-3. Featured Projects
-   - Renders 4 project cards in a responsive grid (2x2 on wider screens, auto stacks on mobile)
-   - Each card: title, description, tech stack list, optional link button
-4. Contact Me Form
-   - Fields: Name (required), Email (valid format), Message (min 10 chars)
-   - Inline validation on blur + overall validation on submit
-   - Success message after valid submit (simulated only; no real backend)
+In the project directory, you can run:
 
-## Tech Stack
-- React 19 + Vite
-- Functional components with hooks
-- No external UI library (pure CSS for clarity)
+### `npm start`
 
-## Running Locally
-```bash
-npm install
-npm run dev
-```
-Open the printed local URL (usually http://localhost:5173).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Build & Preview
-```bash
-npm run build
-npm run preview
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Customization Checklist
-- Update social profile URLs in `src/components/Header.jsx`
-- Replace avatar import in `src/components/Landing.jsx` with your image (place file in `src/assets`)
-- Edit project entries in `src/components/Projects.jsx` array
-- Adjust colors / typography in `src/App.css`
-- Update name & bio in `Landing.jsx`
+### `npm test`
 
-## Peer Review Submission Steps
-1. Verify each requirement:
-   - Header links work (external open in new tab, internal smooth scroll).
-   - Header hides on scroll down and returns on scroll up smoothly.
-   - Landing has avatar, name, bio.
-   - Projects show a 2x2 grid (≥4 cards) on desktop.
-   - Contact form validation triggers on focus/blur and blocks invalid submit.
-2. Delete the `node_modules` folder (to shrink size).
-3. Zip the project folder (folder containing `package.json`).
-4. Upload the zip for peer review.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Reviewing a Peer’s Project
-```bash
-npm install
-npm run dev
-```
-Or copy their `App.jsx` / component code into a fresh Vite React sandbox if allowed.
+### `npm run build`
 
-## Potential Improvements
-- Add dark/light theme toggle
-- Persist submitted form data or send to a serverless endpoint
-- Add animation (Framer Motion) for section entrance
-- Introduce filtering / tagging for projects
-- Add unit tests for validation and scroll behavior
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## License
-Educational use (course peer review exercise). Replace content & assets with your own branding before public deployment.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Little-Lemon-Website
+Meta Frontend Developer Capstone Project
+>>>>>>> 9ed3ec208db41b3b442015fedd8ae6cb1d99deb7
